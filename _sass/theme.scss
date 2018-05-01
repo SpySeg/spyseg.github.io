@@ -1,4 +1,27 @@
 body {
-  background: #000;
-  color: #fff;
+  background: #2E2E2E;
+}
+
+.service-card {
+  background: green;
+
+  figure {
+    height: 250px;
+    width: 100%;
+    background: #000;
+  }
+
+  .service-description {
+    flex-grow: 2;
+    background: red;
+
+    h2 {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    p {
+      font-size: 18px;
+    }
+  }
 }
