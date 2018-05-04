@@ -1,16 +1,26 @@
 ---
 layout: default
 ---
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v3.0';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
-<div class="main-hero position-relative overflow-hidden p-3 p-md-5 mb-5 text-center bg-light">
-  <div class="col-md-5 p-lg-5 mx-auto">
-    <h1 class="display-4 font-weight-normal">Punny headline</h1>
-    <p class="lead font-weight-normal">And an even wittier subheading to boot. Jumpstart your marketing efforts with this example based on Apple's marketing pages.</p>
+<div class="main-hero position-relative overflow-hidden mb-5 text-center bg-light">
+  <div class="hero-background"></div>
+  <div class="hero-overlay d-flex justify-content-center align-items-center">
+    <h2 class="col-md-5 font-weight-bold p-4">
+      Proteja seu patrimônio.
+    </h2>
   </div>
 </div>
 
 <div class="container">
-  <section class="position-relative overflow-hidden mb-3">
+  <section class="position-relative overflow-hidden">
     <div class="row mb-3">
       <h1 class="col-md-12">Nossos Serviços</h1>
     </div>
@@ -18,7 +28,7 @@ layout: default
     <div class="row mb-4">
       <div class="col-md-4 d-flex">
         <div class="service-card d-flex flex-column">
-          <figure></figure>
+          <figure style="background: url(/assets/img/cctv-image.png) no-repeat center;"></figure>
           <div class="service-description p-3">
             <h2>Câmeras de Segurança / CFTV</h2>
             <p>A Spyseg oferece ao seu imóvel um circuito de câmeras com gravação em tempo integral e acesso de qualquer lugar do mundo.</p>
@@ -28,7 +38,7 @@ layout: default
 
       <div class="col-md-4 d-flex">
         <div class="service-card d-flex flex-column">
-          <figure></figure>
+          <figure style="background: url(/assets/img/alarm-image.png) no-repeat center;"></figure>
           <div class="service-description p-3">
             <h2>Central de Alarme</h2>
             <p>Instalamos em seu imóvel um sistema de detecção que fica programado para lhe notificar caso seu ambiente seja violado.</p>
@@ -38,7 +48,7 @@ layout: default
 
       <div class="col-md-4 d-flex">
         <div class="service-card d-flex flex-column">
-          <figure></figure>
+          <figure style="background: url(/assets/img/eletric-fence.png) no-repeat center;"></figure>
           <div class="service-description p-3">
             <h2>Cerca Elétrica</h2>
             <p>Integrado a Central de Alarme, o sistema de cerca elétrica, além de sua função principal, notifica em caso de tentativa de invasão.</p>
@@ -50,7 +60,7 @@ layout: default
     <div class="row mb-3">
       <div class="col-md-4 d-flex">
         <div class="service-card d-flex flex-column">
-          <figure></figure>
+          <figure style="background: url(/assets/img/auto-gate.png) no-repeat center;"></figure>
           <div class="service-description p-3">
             <h2>Portão Automático</h2>
             <p>Seja residencial ou industrial, a Spyseg oferece a você, diversas maneiras de automatizar seu portão.</p>
@@ -60,7 +70,7 @@ layout: default
 
       <div class="col-md-4 d-flex">
         <div class="service-card d-flex flex-column">
-          <figure></figure>
+          <figure style="background: url(/assets/img/alarm-image.png) no-repeat center;"></figure>
           <div class="service-description p-3">
             <h2>Interfonia / Porteiro Eletrônico</h2>
             <p>De residências a grandes condomínios, temos interfones essenciais para cada tipo de instalação. Incluindo integração com sistema de fechaduras eletrônicas.</p>
@@ -70,12 +80,76 @@ layout: default
 
       <div class="col-md-4 d-flex">
         <div class="service-card d-flex flex-column">
-          <figure></figure>
+          <figure style="background: url(/assets/img/alarm-image.png) no-repeat center;"></figure>
           <div class="service-description p-3">
             <h2>Controle de Acesso</h2>
             <p>Oferecemos uma gama de dispositivos para controlar o acesso ao seu estabelecimento ou residência: Biometria, tokens RFID, cartões e senha eletrônica.</p>
           </div>
         </div>
+      </div>
+    </div>
+
+    <div class="row row-flex justify-content-center">
+      <div class="col-md-4 d-flex">
+        <div class="service-card d-flex flex-column">
+          <figure style="background: url(/assets/img/alarm-image.png) no-repeat center;"></figure>
+          <div class="service-description p-3">
+            <h2>PABX</h2>
+            <p>Podemos instalar na sua empresa, uma central de telefones para aumentar a eficiência do seu atendimento.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="position-relative mt-5">
+    <div class="row mb-3">
+      <h1 class="col-md-12">Serviços Contratuais</h1>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12 mb-3">
+        <div class="service-card d-flex flex-column">
+          <div class="service-description p-3">
+            <h2>Contrato de Manutenção</h2>
+            <p>Você pode contar com a Spyseg para manter os sistemas de segurança da sua empresa em pleno funcionamento. Deu problema? É só entrar em contato que enviamos um de nossos técnicos.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <div class="service-card d-flex flex-column">
+          <div class="service-description p-3">
+            <h2>Espelhamento em Nuvem</h2>
+            <p>Este sistema consiste em espelhar as gravações de suas câmeras para nossos servidores, e ter acesso a elas quando quiser. Este serviço impede também que as gravações sejam apagadas por mau intencionados..</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="posiition-relative mt-5">
+    <div class="row">
+      <div class="col-md-6 map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d229.9869477201342!2d-43.45866576703929!3d-22.736002289479508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9967b8bd24482d%3A0x3a2b3c300ce38d84!2sAv.+Henrique+Duque+Estrada+Meyer%2C+285+-+Posse%2C+Nova+Igua%C3%A7u+-+RJ!5e0!3m2!1spt-BR!2sbr!4v1525347704288" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+
+      <div class="col-md-6 p-3 footer-info">
+        <h1 class="mb-3">Entre em contato</h1>
+
+        <h3>Endereço</h3>
+        <p>Av. Henrique Duque Estrada Mayer, 285, Sobreloja, Alto da Posse 26030-380 Nova Iguaçu</p>
+
+        <h3>Telefone</h3>
+        <p>(21) 3851-1737</p>
+
+        <div class="mt-3 fb-page" data-href="https://www.facebook.com/spysegprofile/" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/spysegprofile/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/spysegprofile/">Spyseg - Segurança Eletrônica e Soluções</a></blockquote></div>
+        <a href="https://instagram.com/spysegprofile" target="_blank" class="instagram-follow-link d-block mt-3">
+          <img src="/assets/img/instagram-icon.png" />
+          Siga no Instagram
+        </a>
       </div>
     </div>
   </section>
